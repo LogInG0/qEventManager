@@ -2,3 +2,34 @@ name: qEventManager
 version: '${version}'
 main: wtf.pawlend.qeventmanager.qEventManager
 api-version: '1.16'
+authors:
+  - Pawlend
+
+commands:
+  qevent:
+    description: Main command for qEventManager
+    usage: /<command> [subcommand] [args]
+    aliases:
+      - qe
+      - events
+      - eventmanager
+
+permissions:
+  qeventmanager.admin:
+    description: Full access to all admin commands
+    default: op
+  qeventmanager.vote:
+    description: Permission to participate in voting
+    default: true
+  qeventmanager.menu:
+    description: Permission to open event menu
+    default: op
+  qeventmanager.start:
+    description: Permission to start events
+    default: op
+  qeventmanager.stop:
+    description: Permission to stop events
+    default: op
+  qeventmanager.reload:
+    description: Permission to reload configs
+    default: op

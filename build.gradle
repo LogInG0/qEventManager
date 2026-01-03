@@ -3,7 +3,7 @@ plugins {
 }
 
 group = 'wtf.pawlend'
-version = '0.1.0'
+version = 'devbuild'
 
 repositories {
     mavenCentral()
@@ -18,10 +18,10 @@ repositories {
 }
 
 dependencies {
-compileOnly "org.spigotmc:spigot-api:1.16.5-R0.1-SNAPSHOT"
+    compileOnly "org.spigotmc:spigot-api:1.17.1-R0.1-SNAPSHOT"
 }
 
-def targetJavaVersion = 8
+def targetJavaVersion = 16
 java {
     def javaVersion = JavaVersion.toVersion(targetJavaVersion)
     sourceCompatibility = javaVersion

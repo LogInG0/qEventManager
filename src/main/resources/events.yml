@@ -1,0 +1,16 @@
+# Настройки ивентов
+# Здесь можно переопределить параметры зарегистрированных ивентов
+
+events:
+  # Пример настройки ивента
+  # hermit:
+  #   enabled: true
+  #   voting-allowed: true
+  #   random-allowed: true
+  #   custom-weight: 10
+
+  # Дефолтные настройки для новых ивентов
+  defaults:
+    enabled: true
+    voting-allowed: true
+    random-allowed: true

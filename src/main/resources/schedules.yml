@@ -1,0 +1,35 @@
+# Расписание ивентов
+
+schedules:
+  # Ежедневный вечерний ивент
+  evening-event:
+    enabled: true
+    type: daily
+    time: "18:00"
+    mode: vote
+    min-players: 5
+    max-players: 0
+    events: []  # Пустой список = все доступные
+
+  # Еженедельный ивент по выходным
+  weekend-special:
+    enabled: true
+    type: weekly
+    time: "15:00"
+    days:
+      - SATURDAY
+      - SUNDAY
+    mode: random
+    min-players: 10
+    events:
+      - parkour
+      - pvp_arena
+
+  # Пример одноразового ивента
+  grand-opening:
+    enabled: false
+    type: once
+    time: "20:00"
+    mode: vote
+    min-players: 20
+    events: []

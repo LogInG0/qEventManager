@@ -1,0 +1,30 @@
+# Сообщения плагина qEventManager
+
+prefix: "&8[&6qEvent&8] "
+
+messages:
+  # Общие сообщения
+  no-permission: "&cУ вас нет прав для этого действия!"
+  player-only: "&cЭта команда только для игроков!"
+
+  # Ивенты
+  event-starting: "&eИвент &6{event} &eначнётся через &f{seconds} &eсекунд!"
+  event-started: "&aИвент &6{event} &aначался!"
+  event-stopped: "&cИвент &6{event} &cбыл остановлен."
+  event-ended: "&eИвент &6{event} &eзавершён!"
+  event-not-found: "&cИвент с ID '{id}' не найден!"
+  no-active-event: "&7Нет активного ивента."
+
+  # Голосование
+  voting-started: "&e&lГолосование за ивент началось!"
+  voting-button: "&a&l[Голосовать]"
+  voting-button-hover: "&eНажмите, чтобы открыть меню голосования"
+  voting-not-active: "&7Голосование сейчас неактивно."
+  voting-invalid-event: "&cЭтот ивент не участвует в голосовании."
+  voting-already-voted: "&7Вы уже проголосовали! Изменить голос нельзя."
+  voting-vote-cast: "&aВы проголосовали за &e{event}&a!"
+  voting-time-remaining: "&7Осталось &f{seconds} &7секунд..."
+  voting-winner: "&a&lПобедил ивент: &6&l{event} &7(&f{votes} голосов&7)"
+  voting-no-votes-random: "&7Голосов не было, выбираем случайный ивент..."
+  voting-no-votes-cancelled: "&7Голосов не было, ивент отменён."
+  voting-cancelled: "&cГолосование отменено."

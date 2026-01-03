@@ -1,0 +1,42 @@
+# Настройки GUI
+
+main-menu:
+  title: "&6&lМенеджер Ивентов"
+  size: 54
+
+  # Позиции элементов
+  slots:
+    random-button: 45
+    vote-button: 49
+    stop-button: 53
+    prev-page: 48
+    next-page: 50
+
+vote-menu:
+  title: "&e&lГолосование за ивент"
+
+items:
+  filler:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+
+  random-button:
+    material: EMERALD
+    name: "&a&lЗапустить рандомный"
+    lore:
+      - "&7Нажмите, чтобы запустить"
+      - "&7случайный ивент"
+
+  vote-button:
+    material: NETHER_STAR
+    name: "&e&lЗапустить голосование"
+    lore:
+      - "&7Нажмите, чтобы начать"
+      - "&7голосование за ивент"
+
+  stop-button:
+    material: BARRIER
+    name: "&c&lОстановить ивент"
+    lore:
+      - "&7Нажмите, чтобы остановить"
+      - "&7текущий активный ивент"
