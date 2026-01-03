@@ -1,0 +1,4 @@
+name: qEventManager
+version: '${version}'
+main: wtf.pawlend.qeventmanager.qEventManager
+api-version: '1.16'
